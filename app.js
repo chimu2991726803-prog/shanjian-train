@@ -61,129 +61,239 @@ const ARTICLES = [
       "该泄水工程自二00六年八月开始。今年三月三十一日，中铁**局在隧道进口约四千七百米的巷道深处进行了最后爆破，使邛崃山隧道成功泄洪。四月初，铁道部有关官员和专家现场考察后评定：该隧道实现了打通特大富水溶腔过水通道的预定目标，施工中随时可能造成突水突泥灾害的“水魔”终于被降服。隧道专家也认为，该隧道的成功泄洪，标志着解决大范围、高水位、多淤泥溶腔这一世界级重大难题，取得突破性进展。 ",
       "……"
     ]
+  },
+  {
+    "id": "vietnamese-bride",
+    "category": "社会",
+    "title": "越南新娘只是一种幸福幻想？",
+    "source": "资料稿",
+    "date": "2007",
+    "related": [],
+    "blocks": [
+      {
+        "type": "image",
+        "src": "images/vietnamese-bride-banner.png",
+        "alt": "越南新娘专题图片"
+      },
+      {
+        "type": "heading",
+        "text": "越南新娘为什么这样火？"
+      },
+      {
+        "type": "heading",
+        "text": "越南女多于男 外嫁谋求更好生活",
+        "level": 3
+      },
+      {
+        "type": "p",
+        "text": "越南男女比例一度严重失调，女性人数高于男性。一些女性从而选择嫁给外国人尤其是发达国家的男性以谋求更好生活。一项统计显示，大约83.6%嫁往国外的“越南新娘”对婚后生活满意，她们会定期向家人寄钱补贴家用；有36.3%的“越南新娘”家庭生活水平超过越南国内平均水平。因此，越南姑娘外嫁成为潮流。贫困地区女性是“越南新娘”的主力军。"
+      },
+      {
+        "type": "p",
+        "text": "1998年至2006年，越南司法部曾受理29.4万多例“越南新娘”嫁往国外的申请，几乎涵盖了世界上50多个国家和地区。最多的是嫁往中国、韩国、德国、加拿大、法国和美国等。"
+      },
+      {
+        "type": "heading",
+        "text": "中国男多于女 娶“越南新娘”成本低",
+        "level": 3
+      },
+      {
+        "type": "p",
+        "text": "中国适婚男性多于女性，一些农村地区男性娶妻难、高额彩礼压力大等现象严重，使得他们很难在当地找到对象，一些人因而把目光转向“越南新娘”。现实主义的背后，是日益严重的性别失衡。"
+      },
+      {
+        "type": "p",
+        "text": "确实，娶个“越南新娘”成本较低，通常在几万元人民币左右。对于生活并不太富裕的农村家庭而言，这是可以接受的数字。正因如此，一些机构和个人才从中嗅到“商机”，“越南新娘”中介机构在中国大陆、中国台湾以及韩国等地应运而生。"
+      },
+      {
+        "type": "heading",
+        "text": "越南新娘堪称“完美新娘”",
+        "level": 3
+      },
+      {
+        "type": "p",
+        "text": "至于为何“越南新娘”逐渐形成一个“品牌”，部分原因是越南女性比较勤劳、朴实，观念较为传统，更受包括中国、韩国在内一些审美取向相似国家男性的青睐。嫁到中国的越南媳妇中不乏婚后生活满意者，丈夫努力打工挣钱，妻子勤恳操持家务，双方基本都过上了各自理想的婚后生活。"
+      },
+      {
+        "type": "p",
+        "text": "但是，相对皆大欢喜的结局，有关“越南新娘”骗婚、逃婚的新闻确实也不在少数。基于买卖的跨国婚姻中有商机，也有危机。"
+      },
+      {
+        "type": "image",
+        "src": "images/vietnamese-bride-cartoon.jpg",
+        "alt": "国外越南新娘漫画"
+      },
+      {
+        "type": "heading",
+        "text": "越南新娘反映了什么？"
+      },
+      {
+        "type": "heading",
+        "text": "农村青年婚姻痛楚",
+        "level": 3
+      },
+      {
+        "type": "p",
+        "text": "越南媳妇集体失踪，无疑戳中了中国农村大龄男青年的“痛楚”。受浮躁婚恋观、婚姻习俗的影响，中国女孩身价水涨船高，这无疑“绑架”了男青年想娶中国媳妇的心，压迫了他们婚姻嫁娶的选择空间，让他们走上了不得已而为之，迎娶越南媳妇有风险的“独木桥”，这是何等悲哀。"
+      },
+      {
+        "type": "p",
+        "text": "娶中国媳妇娶不起，娶越南媳妇有风险，这置中国“穷”男人于何地，而这，竟只是一个婚姻习俗导致，看来，中国式婚姻需反思破除的地方还有很多。"
+      },
+      {
+        "type": "heading",
+        "text": "户籍管理的混乱",
+        "level": 3
+      },
+      {
+        "type": "p",
+        "text": "一是由于这些某种程度上存在“买卖关系”的婚姻，多数并没有到民政部门登记注册。二是由于农村户籍管理比较混乱，承担户籍管理的乡镇派出所受警员严重紧缺制约，对农村人口的调查了解滞后于实际情况。"
+      },
+      {
+        "type": "heading",
+        "text": "立法监管的缺失",
+        "level": 3
+      },
+      {
+        "type": "p",
+        "text": "如今的“越南新娘”现象可谓是中越两国国情和社会发展过程中出现的特殊社会现象，不仅缺乏法律保驾，还存在不少陷阱。一些专家也分析，这种基于买卖关系的婚姻已经滋生了许多新的社会问题：一是外籍非法新娘处境艰难，二是当事人买卖婚姻违法，三是中介通过骗婚获利涉嫌诈骗犯罪。目前，国内对涉外婚介组织以及个体的监管，在法律上基本处于缺失状态。不得不说，这是造成目前涉外婚姻诈骗现象多发的重要原因。"
+      }
+    ],
+    "paragraphs": [
+      "越南新娘为什么这样火？",
+      "越南女多于男 外嫁谋求更好生活",
+      "越南男女比例一度严重失调，女性人数高于男性。一些女性从而选择嫁给外国人尤其是发达国家的男性以谋求更好生活。一项统计显示，大约83.6%嫁往国外的“越南新娘”对婚后生活满意，她们会定期向家人寄钱补贴家用；有36.3%的“越南新娘”家庭生活水平超过越南国内平均水平。因此，越南姑娘外嫁成为潮流。贫困地区女性是“越南新娘”的主力军。",
+      "1998年至2006年，越南司法部曾受理29.4万多例“越南新娘”嫁往国外的申请，几乎涵盖了世界上50多个国家和地区。最多的是嫁往中国、韩国、德国、加拿大、法国和美国等。",
+      "中国男多于女 娶“越南新娘”成本低",
+      "中国适婚男性多于女性，一些农村地区男性娶妻难、高额彩礼压力大等现象严重，使得他们很难在当地找到对象，一些人因而把目光转向“越南新娘”。现实主义的背后，是日益严重的性别失衡。",
+      "确实，娶个“越南新娘”成本较低，通常在几万元人民币左右。对于生活并不太富裕的农村家庭而言，这是可以接受的数字。正因如此，一些机构和个人才从中嗅到“商机”，“越南新娘”中介机构在中国大陆、中国台湾以及韩国等地应运而生。",
+      "越南新娘堪称“完美新娘”",
+      "至于为何“越南新娘”逐渐形成一个“品牌”，部分原因是越南女性比较勤劳、朴实，观念较为传统，更受包括中国、韩国在内一些审美取向相似国家男性的青睐。嫁到中国的越南媳妇中不乏婚后生活满意者，丈夫努力打工挣钱，妻子勤恳操持家务，双方基本都过上了各自理想的婚后生活。",
+      "但是，相对皆大欢喜的结局，有关“越南新娘”骗婚、逃婚的新闻确实也不在少数。基于买卖的跨国婚姻中有商机，也有危机。",
+      "越南新娘反映了什么？",
+      "农村青年婚姻痛楚",
+      "越南媳妇集体失踪，无疑戳中了中国农村大龄男青年的“痛楚”。受浮躁婚恋观、婚姻习俗的影响，中国女孩身价水涨船高，这无疑“绑架”了男青年想娶中国媳妇的心，压迫了他们婚姻嫁娶的选择空间，让他们走上了不得已而为之，迎娶越南媳妇有风险的“独木桥”，这是何等悲哀。",
+      "娶中国媳妇娶不起，娶越南媳妇有风险，这置中国“穷”男人于何地，而这，竟只是一个婚姻习俗导致，看来，中国式婚姻需反思破除的地方还有很多。",
+      "户籍管理的混乱",
+      "一是由于这些某种程度上存在“买卖关系”的婚姻，多数并没有到民政部门登记注册。二是由于农村户籍管理比较混乱，承担户籍管理的乡镇派出所受警员严重紧缺制约，对农村人口的调查了解滞后于实际情况。",
+      "立法监管的缺失",
+      "如今的“越南新娘”现象可谓是中越两国国情和社会发展过程中出现的特殊社会现象，不仅缺乏法律保驾，还存在不少陷阱。一些专家也分析，这种基于买卖关系的婚姻已经滋生了许多新的社会问题：一是外籍非法新娘处境艰难，二是当事人买卖婚姻违法，三是中介通过骗婚获利涉嫌诈骗犯罪。目前，国内对涉外婚介组织以及个体的监管，在法律上基本处于缺失状态。不得不说，这是造成目前涉外婚姻诈骗现象多发的重要原因。"
+    ]
+  },
+  {
+    "id": "village-murder",
+    "category": "社会",
+    "title": "村庄自建房内惊现男尸，现场惨不忍睹！",
+    "source": "《城市晚报》",
+    "date": "2007-02-11",
+    "related": [],
+    "blocks": [
+      {
+        "type": "p",
+        "text": "本报讯2月11日下午，浏阳市沅陵县桃坪村发生一起杀人案，距村口三公里一村名家惨遭洗劫。共有一人死亡，死者为董x德，37岁，为家中三儿子，如今承包了三亩地，在桃坪村自立门户，家人则远居在凤凰县。"
+      },
+      {
+        "type": "p",
+        "text": "当日晚，记者赶到朱园子村时，被害人董x德家四周已被封锁，民警正在对现场进行勘察。很多村民听到消息后，也聚集到董家周围，议论着下午发生的血案。据了解，事发时，村里传出凄厉的呼救声。村民赵立臣到董老汉家借农具时，发现屋里到处都是血。"
+      },
+      {
+        "type": "p",
+        "text": "接到报警之后，民警立即赶到现场，确定董x德被害。专案组通过现场勘察和走访调查，确认凶手为一人所为，死者身上有防御性伤痕，现场打斗痕迹明显，钱财被洗劫一空，推测为生人临时起意犯罪。"
+      },
+      {
+        "type": "p",
+        "text": "此案还在进一步的审理中。"
+      },
+      {
+        "type": "heading",
+        "text": "■现场"
+      },
+      {
+        "type": "image",
+        "src": "images/village-crime-scene.jpg",
+        "alt": "案发现场遗留物"
+      },
+      {
+        "type": "heading",
+        "text": "被害人头部多被袭击",
+        "level": 3
+      },
+      {
+        "type": "heading",
+        "text": "目击村民称案发现场“到处都是人，到处都是血”",
+        "level": 3
+      },
+      {
+        "type": "p",
+        "text": "第一目击村民赵立臣告诉记者，当天下午4时30分许，他到一路之隔的董x德家借农具。由于大家都很熟悉了，赵立臣没敲门就推门进屋。却发现走廊里躺着一人，到处都是血，他吓得大声呼救。很快村民赶到，有人立即报案。赵立臣说，他被吓坏了，也没看清走廊里被杀死的人是谁。"
+      },
+      {
+        "type": "p",
+        "text": "“满屋都是血啊，太惨了。”村民们说，董x德是村里的老住户，为人老实，和邻里间关系很不错，也没听说他们家得罪过什么人。董x德的父母今年60多岁，有三个孩子，大儿子已经50多岁了，还没有成家；二女儿离婚了，带着十几岁的孩子住在娘家；"
+      },
+      {
+        "type": "p",
+        "text": "在董x德家的前院里，堆放了很多苞米。院内停放着一辆大车，记者赶到时，在走廊里被害的两人已被抬了出来。村民们说，董老汉家有四亩地，平日里还会请人来垦，生活条件很不错，当天上午，董x德还到镇里去买东西，被打死在屋里，应该是下午发生的事。"
+      },
+      {
+        "type": "p",
+        "text": "“走廊里，厨房里，炕上，到处都是糊糊，都处都是血。”两位往外抬尸体的村民说，他们进屋后，被眼前的景象吓坏了。"
+      },
+      {
+        "type": "p",
+        "text": "《城市晚报》报道"
+      }
+    ],
+    "paragraphs": [
+      "本报讯2月11日下午，浏阳市沅陵县桃坪村发生一起杀人案，距村口三公里一村名家惨遭洗劫。共有一人死亡，死者为董x德，37岁，为家中三儿子，如今承包了三亩地，在桃坪村自立门户，家人则远居在凤凰县。",
+      "当日晚，记者赶到朱园子村时，被害人董x德家四周已被封锁，民警正在对现场进行勘察。很多村民听到消息后，也聚集到董家周围，议论着下午发生的血案。据了解，事发时，村里传出凄厉的呼救声。村民赵立臣到董老汉家借农具时，发现屋里到处都是血。",
+      "接到报警之后，民警立即赶到现场，确定董x德被害。专案组通过现场勘察和走访调查，确认凶手为一人所为，死者身上有防御性伤痕，现场打斗痕迹明显，钱财被洗劫一空，推测为生人临时起意犯罪。",
+      "此案还在进一步的审理中。",
+      "■现场",
+      "被害人头部多被袭击",
+      "目击村民称案发现场“到处都是人，到处都是血”",
+      "第一目击村民赵立臣告诉记者，当天下午4时30分许，他到一路之隔的董x德家借农具。由于大家都很熟悉了，赵立臣没敲门就推门进屋。却发现走廊里躺着一人，到处都是血，他吓得大声呼救。很快村民赶到，有人立即报案。赵立臣说，他被吓坏了，也没看清走廊里被杀死的人是谁。",
+      "“满屋都是血啊，太惨了。”村民们说，董x德是村里的老住户，为人老实，和邻里间关系很不错，也没听说他们家得罪过什么人。董x德的父母今年60多岁，有三个孩子，大儿子已经50多岁了，还没有成家；二女儿离婚了，带着十几岁的孩子住在娘家；",
+      "在董x德家的前院里，堆放了很多苞米。院内停放着一辆大车，记者赶到时，在走廊里被害的两人已被抬了出来。村民们说，董老汉家有四亩地，平日里还会请人来垦，生活条件很不错，当天上午，董x德还到镇里去买东西，被打死在屋里，应该是下午发生的事。",
+      "“走廊里，厨房里，炕上，到处都是糊糊，都处都是血。”两位往外抬尸体的村民说，他们进屋后，被眼前的景象吓坏了。",
+      "《城市晚报》报道"
+    ]
   }
 ];
 
-
-const FORUM_BOARDS = [
+const FORUM_THREADS = [
   {
-    "id": "local-talk",
-    "name": "地方生活",
-    "description": "本地见闻、交通出行与生活话题",
-    "moderator": "待定",
-    "threads": []
-  },
-  {
-    "id": "railway-talk",
-    "name": "铁路纵横",
-    "description": "铁路建设、列车出行与沿线消息",
-    "moderator": "待定",
-    "threads": []
-  },
-  {
-    "id": "free-talk",
-    "name": "灌水乐园",
-    "description": "网友交流与站务讨论",
-    "moderator": "待定",
-    "threads": []
+    "id": "end-of-world-2008",
+    "board": "怪谈杂论",
+    "title": "2008年世界末日即将到来！",
+    "author": "玛雅人说",
+    "date": "2007-12-28 23:17",
+    "views": 1842,
+    "posts": [
+      {
+        "floor": "楼主",
+        "author": "玛雅人说",
+        "role": "坛主",
+        "time": "2007-12-28 23:17",
+        "text": "时间会变得越来越快，谁都逃不过。之前是脚在跑时间，之后是马车，现在是轿车……如果高速把时间割裂，倾泄而出的“东西”我们永远也填不回去。"
+      },
+      {
+        "floor": "2楼",
+        "author": "猫雾",
+        "role": "",
+        "time": "2007-12-28 23:25",
+        "text": "顶顶顶，坛主咋了？"
+      },
+      {
+        "floor": "3楼",
+        "author": "工作驱使牛在跑",
+        "role": "",
+        "time": "2007-12-29 00:03",
+        "text": "故弄玄虚也要有个度，你这话讲得我也看不懂啊。。。"
+      }
+    ]
   }
 ];
-
-function boardLink(board) {
-  return `<a href="#board/${encodeURIComponent(board.id)}">${escapeHtml(board.name)}</a>`;
-}
-
-function renderForum() {
-  const totalThreads = FORUM_BOARDS.reduce((sum, board) => sum + board.threads.length, 0);
-  app.innerHTML = `
-    <div class="forum-topbar">
-      <div><b>星海社区</b>　欢迎访问本站论坛</div>
-      <div><a href="#home">返回新闻首页</a> | <a href="#forum-help">论坛帮助</a></div>
-    </div>
-    <div class="forum-breadcrumb">星海资讯网论坛首页</div>
-    <table class="forum-table" cellspacing="0" cellpadding="0">
-      <thead>
-        <tr><th class="forum-icon-col">状态</th><th>版块</th><th class="forum-num-col">主题</th><th class="forum-num-col">帖数</th><th class="forum-last-col">最后发表</th></tr>
-      </thead>
-      <tbody>
-        ${FORUM_BOARDS.map(board => `
-          <tr>
-            <td class="forum-icon">◎</td>
-            <td class="forum-board-cell">
-              <h3>${boardLink(board)}</h3>
-              <p>${escapeHtml(board.description)}</p>
-              <small>版主：${escapeHtml(board.moderator)}</small>
-            </td>
-            <td class="forum-center">${board.threads.length}</td>
-            <td class="forum-center">${board.threads.reduce((sum, thread) => sum + (thread.replies || []).length + 1, 0)}</td>
-            <td class="forum-last">暂无主题</td>
-          </tr>`).join("")}
-      </tbody>
-    </table>
-    <div class="forum-stats">论坛共有 <b>${FORUM_BOARDS.length}</b> 个版块，<b>${totalThreads}</b> 个主题。论坛正文等待创作者补充。</div>
-    <section class="forum-notice">
-      <h3>论坛公告</h3>
-      <p>论坛功能框架已经启用。当前版本没有添加任何虚构帖子或回复，以免改动创作者的剧情内容。</p>
-      <p>后续提供帖子标题、用户名、时间、正文和回复后，可直接加入相应版块。</p>
-    </section>`;
-}
-
-function renderBoard(id) {
-  const board = FORUM_BOARDS.find(item => item.id === id);
-  if (!board) return renderNotFound();
-  app.innerHTML = `
-    <div class="forum-topbar"><div><b>星海社区</b>　${escapeHtml(board.name)}</div><div><a href="#forum">论坛首页</a> | <a href="#home">新闻首页</a></div></div>
-    <div class="forum-breadcrumb"><a href="#forum">星海社区</a> &gt; ${escapeHtml(board.name)}</div>
-    <div class="forum-board-head">
-      <h2>${escapeHtml(board.name)}</h2>
-      <p>${escapeHtml(board.description)}</p>
-    </div>
-    <table class="thread-table" cellspacing="0" cellpadding="0">
-      <thead><tr><th>主题</th><th class="thread-author-col">作者</th><th class="thread-num-col">回复/查看</th><th class="thread-last-col">最后发表</th></tr></thead>
-      <tbody>
-        ${board.threads.length ? board.threads.map(thread => `
-          <tr>
-            <td><a href="#thread/${encodeURIComponent(board.id)}/${encodeURIComponent(thread.id)}">${escapeHtml(thread.title)}</a></td>
-            <td class="forum-center">${escapeHtml(thread.author)}</td>
-            <td class="forum-center">${thread.replies.length}/${thread.views || 0}</td>
-            <td>${escapeHtml(thread.date)}</td>
-          </tr>`).join("") : `<tr><td colspan="4" class="forum-empty">本版暂无主题。请在提供论坛正文后再添加内容。</td></tr>`}
-      </tbody>
-    </table>
-    <div class="forum-disabled-form">
-      <b>发表新主题</b><br>
-      当前为剧情展示用离线论坛，发帖功能未开放。
-    </div>`;
-}
-
-function renderThread(boardId, threadId) {
-  const board = FORUM_BOARDS.find(item => item.id === boardId);
-  const thread = board && board.threads.find(item => item.id === threadId);
-  if (!board || !thread) return renderNotFound();
-  const posts = [{author:thread.author, date:thread.date, body:thread.body}, ...thread.replies];
-  app.innerHTML = `
-    <div class="forum-topbar"><div><b>星海社区</b></div><div><a href="#forum">论坛首页</a> | <a href="#board/${encodeURIComponent(board.id)}">返回版块</a></div></div>
-    <div class="forum-breadcrumb"><a href="#forum">星海社区</a> &gt; <a href="#board/${encodeURIComponent(board.id)}">${escapeHtml(board.name)}</a> &gt; ${escapeHtml(thread.title)}</div>
-    <div class="thread-title"><b>${escapeHtml(thread.title)}</b></div>
-    ${posts.map((post, index) => `
-      <article class="forum-post">
-        <aside class="forum-user"><b>${escapeHtml(post.author)}</b><br><span>注册用户</span><br><small>${index === 0 ? '楼主' : `第${index + 1}楼`}</small></aside>
-        <div class="forum-post-main">
-          <div class="forum-post-meta">发表于：${escapeHtml(post.date)} <span>${index === 0 ? '只看楼主' : ''}</span></div>
-          <div class="forum-post-body">${escapeHtml(post.body).replace(/\n/g, '<br>')}</div>
-        </div>
-      </article>`).join("")}`;
-}
-
-function renderForumHelp() {
-  app.innerHTML = `
-    <div class="forum-breadcrumb"><a href="#forum">星海社区</a> &gt; 论坛帮助</div>
-    <section class="article"><h1>论坛内容录入说明</h1>
-      <p>论坛页面已经建立，但尚未加入故事帖子。</p>
-      <p>每个帖子可包含：版块、标题、作者、日期、正文、浏览数，以及任意数量的回复。</p>
-      <p>提供这些文字后，可在不改写内容的情况下加入论坛。</p>
-    </section>`;
-}
 
 const app = document.getElementById("app");
 
@@ -192,190 +302,71 @@ function escapeHtml(value) {
     "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#039;"
   }[ch]));
 }
-
 function excerpt(article, length = 85) {
   const text = article.paragraphs.join("").replace(/\s+/g, " ");
   return text.length > length ? text.slice(0, length) + "……" : text;
 }
-
-function articleLink(article) {
-  return `<a href="#article/${encodeURIComponent(article.id)}">${escapeHtml(article.title)}</a>`;
-}
+function articleLink(article) { return `<a href="#article/${encodeURIComponent(article.id)}">${escapeHtml(article.title)}</a>`; }
+function forumLink(thread) { return `<a href="#thread/${encodeURIComponent(thread.id)}">${escapeHtml(thread.title)}</a>`; }
 
 function renderHome() {
   const lead = ARTICLES.find(a => a.id === "qionglai-tunnel");
   const others = ARTICLES.filter(a => a.id !== lead.id);
   app.innerHTML = `
-    <section class="search-panel">
-      <form id="homeSearch">
-        <input id="homeKeyword" type="text" autocomplete="off" placeholder="请输入新闻关键词">
-        <button type="submit">新闻搜索</button>
-      </form>
-      <div class="search-hint">热门关键词：邛崃山　铁路　深圳　富豪榜　法国　尼日利亚</div>
-    </section>
-    <div class="columns">
-      <div>
-        <section class="box">
-          <div class="box-title">要闻 <a class="more" href="#list/all">更多&gt;&gt;</a></div>
-          <div class="box-body">
-            <div class="hero">
-              <h1>${articleLink(lead)}</h1>
-              <p>${escapeHtml(excerpt(lead, 120))}</p>
-            </div>
-            <ul class="news-list">
-              ${others.map(a => `<li><span class="date">${escapeHtml(a.date)}</span><span class="category">[${escapeHtml(a.category)}]</span>${articleLink(a)}</li>`).join("")}
-            </ul>
-          </div>
-        </section>
-        <section class="box">
-          <div class="box-title">分类新闻</div>
-          <div class="box-body">
-            <ul class="news-list">
-              ${ARTICLES.map(a => `<li><span class="date">${escapeHtml(a.source)}</span><span class="category">[${escapeHtml(a.category)}]</span>${articleLink(a)}</li>`).join("")}
-            </ul>
-          </div>
-        </section>
-      </div>
-      <aside>
-        <section class="box">
-          <div class="box-title">新闻频道</div>
-          <div class="box-body side-menu">
-            <a href="#list/国内">国内新闻</a>
-            <a href="#list/国际">国际新闻</a>
-            <a href="#list/社会">社会新闻</a>
-            <a href="#list/财经">财经新闻</a>
-            <a href="#list/铁路">铁路建设</a>
-          </div>
-        </section>
-        <section class="box">
-          <div class="box-title">新闻排行</div>
-          <div class="box-body">
-            <ol class="hot-rank">
-              ${ARTICLES.map(articleLink).map(x => `<li>${x}</li>`).join("")}
-            </ol>
-          </div>
-        </section>
-        <div class="notice">
-          <b>网站公告</b><br>
-          本站为离线剧情网页工程，所有新闻正文均来自创作者提供的资料。论坛频道现已开放；帖子正文等待创作者提供。博客与图片频道将在后续版本中开放。
-        </div>
-      </aside>
-    </div>`;
-  document.getElementById("homeSearch").addEventListener("submit", e => {
-    e.preventDefault();
-    const q = document.getElementById("homeKeyword").value.trim();
-    location.hash = q ? `search/${encodeURIComponent(q)}` : "search";
-  });
+    <section class="search-panel"><form id="homeSearch"><input id="homeKeyword" type="text" autocomplete="off" placeholder="请输入新闻或论坛关键词"><button type="submit">站内搜索</button></form><div class="search-hint">热门关键词：邛崃山　铁路　深圳　越南新娘　桃坪村　世界末日</div></section>
+    <div class="columns"><div>
+      <section class="box"><div class="box-title">要闻 <a class="more" href="#list/all">更多&gt;&gt;</a></div><div class="box-body"><div class="hero"><h1>${articleLink(lead)}</h1><p>${escapeHtml(excerpt(lead,120))}</p></div><ul class="news-list">${others.map(a=>`<li><span class="date">${escapeHtml(a.date)}</span><span class="category">[${escapeHtml(a.category)}]</span>${articleLink(a)}</li>`).join("")}</ul></div></section>
+      <section class="box"><div class="box-title">星海论坛 <a class="more" href="#forum">进入论坛&gt;&gt;</a></div><div class="box-body"><table class="forum-mini"><tr><th>主题</th><th>作者</th><th>回复/浏览</th></tr>${FORUM_THREADS.map(t=>`<tr><td>${forumLink(t)}</td><td>${escapeHtml(t.author)}</td><td>${t.posts.length-1}/${t.views}</td></tr>`).join("")}</table></div></section>
+    </div><aside>
+      <section class="box"><div class="box-title">新闻频道</div><div class="box-body side-menu"><a href="#list/国内">国内新闻</a><a href="#list/国际">国际新闻</a><a href="#list/社会">社会新闻</a><a href="#list/财经">财经新闻</a><a href="#list/铁路">铁路建设</a><a href="#forum">星海论坛</a></div></section>
+      <section class="box"><div class="box-title">新闻排行</div><div class="box-body"><ol class="hot-rank">${ARTICLES.slice(0,8).map(a=>`<li>${articleLink(a)}</li>`).join("")}</ol></div></section>
+      <div class="notice"><b>网站公告</b><br>新闻、论坛内容均来自创作者提供的资料。本站为离线剧情网页。</div>
+    </aside></div>`;
+  document.getElementById("homeSearch").addEventListener("submit",e=>{e.preventDefault();const q=document.getElementById("homeKeyword").value.trim();location.hash=q?`search/${encodeURIComponent(q)}`:"search";});
 }
 
 function renderList(category) {
   let items;
-  if (!category || category === "all") items = ARTICLES;
-  else if (category === "铁路") items = ARTICLES.filter(a => /铁路|隧道|爆破|坍塌/.test(a.title + a.paragraphs.join("")));
-  else items = ARTICLES.filter(a => a.category === category);
-
-  app.innerHTML = `
-    <div class="breadcrumb">当前位置：<a href="#home">首页</a> &gt; ${escapeHtml(category === "all" ? "全部新闻" : category + "新闻")}</div>
-    <section class="box">
-      <div class="box-title">${escapeHtml(category === "all" ? "全部新闻" : category + "新闻")}</div>
-      <div class="box-body">
-        <ul class="news-list">
-          ${items.length ? items.map(a => `<li><span class="date">${escapeHtml(a.date)}</span><span class="category">[${escapeHtml(a.category)}]</span>${articleLink(a)}</li>`).join("") : `<li class="empty">该频道暂时没有新闻。</li>`}
-        </ul>
-      </div>
-    </section>`;
+  if (!category || category === "all") items=ARTICLES;
+  else if (category === "铁路") items=ARTICLES.filter(a=>/铁路|隧道|爆破|坍塌/.test(a.title+a.paragraphs.join("")));
+  else items=ARTICLES.filter(a=>a.category===category);
+  app.innerHTML=`<div class="breadcrumb">当前位置：<a href="#home">首页</a> &gt; ${escapeHtml(category==="all"?"全部新闻":category+"新闻")}</div><section class="box"><div class="box-title">${escapeHtml(category==="all"?"全部新闻":category+"新闻")}</div><div class="box-body"><ul class="news-list">${items.length?items.map(a=>`<li><span class="date">${escapeHtml(a.date)}</span><span class="category">[${escapeHtml(a.category)}]</span>${articleLink(a)}</li>`).join(""):`<li class="empty">该频道暂时没有新闻。</li>`}</ul></div></section>`;
 }
 
+function renderBlocks(article) {
+  if (!article.blocks) return article.paragraphs.map(p=>`<p>${escapeHtml(p)}</p>`).join("");
+  return article.blocks.map(b=>{
+    if (b.type==="p") return `<p>${escapeHtml(b.text)}</p>`;
+    if (b.type==="heading") return b.level===3?`<h3 class="article-subhead">${escapeHtml(b.text)}</h3>`:`<h2 class="article-section">${escapeHtml(b.text)}</h2>`;
+    if (b.type==="image") return `<div class="article-image"><img src="${escapeHtml(b.src)}" alt="${escapeHtml(b.alt||"")}"></div>`;
+    return "";
+  }).join("");
+}
 function renderArticle(id) {
-  const article = ARTICLES.find(a => a.id === id);
-  if (!article) return renderNotFound();
-  const defaultRelated = ARTICLES.filter(a => a.id !== id).slice(0, 3);
-  app.innerHTML = `
-    <div class="breadcrumb">当前位置：<a href="#home">首页</a> &gt; <a href="#list/${encodeURIComponent(article.category)}">${escapeHtml(article.category)}</a> &gt; 正文</div>
-    <div class="article-layout">
-      <article class="article">
-        <h1>${escapeHtml(article.title)}</h1>
-        <div class="article-meta">来源：${escapeHtml(article.source)}　发布时间：${escapeHtml(article.date)}　编辑：星海资讯网</div>
-        ${article.paragraphs.map(p => `<p>${escapeHtml(p)}</p>`).join("")}
-        <div class="article-tools"><a href="#" onclick="window.print();return false;">【打印本页】</a>　<a href="#home">【返回首页】</a></div>
-      </article>
-      <aside>
-        <section class="box">
-          <div class="box-title">相关新闻</div>
-          <div class="box-body">
-            <ul class="related-list">
-              ${(article.related.length ? article.related.map(t => `<li><a href="#" onclick="return false;">${escapeHtml(t)}</a></li>`) : defaultRelated.map(a => `<li>${articleLink(a)}</li>`)).join("")}
-            </ul>
-          </div>
-        </section>
-        <section class="box">
-          <div class="box-title">频道推荐</div>
-          <div class="box-body side-menu">
-            ${ARTICLES.filter(a => a.id !== id).map(a => articleLink(a)).join("")}
-          </div>
-        </section>
-      </aside>
-    </div>`;
+  const article=ARTICLES.find(a=>a.id===id); if(!article)return renderNotFound();
+  const related=ARTICLES.filter(a=>a.id!==id).slice(0,4);
+  app.innerHTML=`<div class="breadcrumb">当前位置：<a href="#home">首页</a> &gt; <a href="#list/${encodeURIComponent(article.category)}">${escapeHtml(article.category)}</a> &gt; 正文</div><div class="article-layout"><article class="article"><h1>${escapeHtml(article.title)}</h1><div class="article-meta">来源：${escapeHtml(article.source)}　发布时间：${escapeHtml(article.date)}　编辑：星海资讯网</div>${renderBlocks(article)}<div class="article-tools"><a href="#" onclick="window.print();return false;">【打印本页】</a>　<a href="#home">【返回首页】</a></div></article><aside><section class="box"><div class="box-title">相关新闻</div><div class="box-body"><ul class="related-list">${related.map(a=>`<li>${articleLink(a)}</li>`).join("")}</ul></div></section><section class="box"><div class="box-title">论坛热帖</div><div class="box-body side-menu">${FORUM_THREADS.map(forumLink).join("")}</div></section></aside></div>`;
 }
 
-function searchArticles(keyword) {
-  const q = keyword.trim().toLowerCase();
-  if (!q) return [];
-  return ARTICLES.filter(a =>
-    [a.title, a.category, a.source, a.date, ...a.related, ...a.paragraphs]
-      .join(" ").toLowerCase().includes(q)
-  );
+function renderForum() {
+  app.innerHTML=`<div class="breadcrumb">当前位置：<a href="#home">首页</a> &gt; 星海论坛</div><div class="forum-banner"><b>星海论坛</b>　没有谈不到，只有想不到　<span>注册 | 登录 | 帮助</span></div><section class="forum-board"><div class="forum-board-head"><span>怪谈杂论</span><small>版主：玛雅人说</small></div><table class="forum-table"><tr><th>状态</th><th>主题</th><th>作者</th><th>回复/浏览</th><th>最后回复</th></tr>${FORUM_THREADS.map(t=>`<tr><td class="folder-icon">📁</td><td><b>[置顶]</b> ${forumLink(t)}</td><td>${escapeHtml(t.author)}</td><td>${t.posts.length-1}/${t.views}</td><td>${escapeHtml(t.posts[t.posts.length-1].time)}</td></tr>`).join("")}</table></section><div class="forum-rules"><b>版规：</b>文明交流，请勿发布广告、辱骂或重复灌水内容。</div>`;
+}
+function renderThread(id) {
+  const t=FORUM_THREADS.find(x=>x.id===id); if(!t)return renderNotFound();
+  app.innerHTML=`<div class="breadcrumb">当前位置：<a href="#home">首页</a> &gt; <a href="#forum">星海论坛</a> &gt; 怪谈杂论</div><div class="thread-title"><b>${escapeHtml(t.title)}</b><span>浏览：${t.views}　回复：${t.posts.length-1}</span></div>${t.posts.map((p,i)=>`<section class="forum-post"><div class="post-user"><b>${escapeHtml(p.author)}</b>${p.role?`<em>${escapeHtml(p.role)}</em>`:""}<div>注册：2006年</div><div>帖子：${37+i*84}</div></div><div class="post-main"><div class="post-meta"><span>${escapeHtml(p.floor)}</span>　发表于 ${escapeHtml(p.time)}　<a href="#" onclick="return false;">只看该作者</a></div><div class="post-text">${escapeHtml(p.text)}</div><div class="post-sign">—— 来自星海论坛网页版</div></div></section>`).join("")}<div class="reply-box"><b>快速回复</b><textarea disabled>游客不能回复，请先登录。</textarea><button disabled>发表回复</button></div>`;
 }
 
-function renderSearch(keyword = "") {
-  const results = keyword ? searchArticles(keyword) : [];
-  app.innerHTML = `
-    <div class="breadcrumb">当前位置：<a href="#home">首页</a> &gt; 新闻搜索</div>
-    <section class="search-panel">
-      <form id="searchForm">
-        <input id="searchKeyword" type="text" value="${escapeHtml(keyword)}" autocomplete="off" placeholder="请输入新闻关键词">
-        <button type="submit">搜 索</button>
-      </form>
-      <div class="search-hint">支持标题、正文、来源与分类关键词搜索</div>
-    </section>
-    ${keyword ? `
-      <div class="result-head">搜索“<b>${escapeHtml(keyword)}</b>”，共找到 <b>${results.length}</b> 条新闻</div>
-      <div class="box">
-        <div class="box-body">
-          ${results.length ? results.map(a => `
-            <div class="result-item">
-              <h3>${articleLink(a)}</h3>
-              <p>${escapeHtml(excerpt(a, 120))}</p>
-              <div class="result-url">news.xinghai2007.cn/${escapeHtml(a.id)}.html　${escapeHtml(a.date)}</div>
-            </div>`).join("") : `<div class="empty">没有找到相关内容。请尝试“邛崃山”“深圳”“法国”等关键词。</div>`}
-        </div>
-      </div>` : ""}`;
-  document.getElementById("searchForm").addEventListener("submit", e => {
-    e.preventDefault();
-    const q = document.getElementById("searchKeyword").value.trim();
-    location.hash = q ? `search/${encodeURIComponent(q)}` : "search";
-  });
+function searchAll(keyword) {
+ const q=keyword.trim().toLowerCase(); if(!q)return [];
+ const news=ARTICLES.filter(a=>[a.title,a.category,a.source,a.date,...a.related,...a.paragraphs].join(" ").toLowerCase().includes(q)).map(a=>({type:"新闻",title:a.title,href:`#article/${a.id}`,text:excerpt(a,120)}));
+ const forum=FORUM_THREADS.filter(t=>[t.title,t.board,t.author,...t.posts.map(p=>p.author+p.text)].join(" ").toLowerCase().includes(q)).map(t=>({type:"论坛",title:t.title,href:`#thread/${t.id}`,text:t.posts[0].text}));
+ return [...news,...forum];
 }
-
-function renderNotFound() {
-  app.innerHTML = `<div class="empty"><h2>您访问的页面不存在</h2><p><a href="#home">返回星海资讯网首页</a></p></div>`;
+function renderSearch(keyword="") {
+ const results=keyword?searchAll(keyword):[];
+ app.innerHTML=`<div class="breadcrumb">当前位置：<a href="#home">首页</a> &gt; 站内搜索</div><section class="search-panel"><form id="searchForm"><input id="searchKeyword" type="text" value="${escapeHtml(keyword)}" autocomplete="off" placeholder="请输入新闻或论坛关键词"><button type="submit">搜 索</button></form><div class="search-hint">支持新闻标题、正文、来源、论坛主题与回帖搜索</div></section>${keyword?`<div class="result-head">搜索“<b>${escapeHtml(keyword)}</b>”，共找到 <b>${results.length}</b> 条内容</div><div class="box"><div class="box-body">${results.length?results.map(r=>`<div class="result-item"><h3><span class="category">[${r.type}]</span><a href="${r.href}">${escapeHtml(r.title)}</a></h3><p>${escapeHtml(r.text)}</p><div class="result-url">www.xinghai2007.cn/${r.type==="新闻"?"news":"forum"}/</div></div>`).join(""):`<div class="empty">没有找到相关内容。请尝试“越南新娘”“桃坪村”“世界末日”等关键词。</div>`}</div></div>`:""}`;
+ document.getElementById("searchForm").addEventListener("submit",e=>{e.preventDefault();const q=document.getElementById("searchKeyword").value.trim();location.hash=q?`search/${encodeURIComponent(q)}`:"search";});
 }
-
-function router() {
-  const hash = decodeURIComponent(location.hash.replace(/^#/, "")) || "home";
-  const [route, ...rest] = hash.split("/");
-  if (route === "home") renderHome();
-  else if (route === "article") renderArticle(rest.join("/"));
-  else if (route === "list") renderList(rest.join("/") || "all");
-  else if (route === "search") renderSearch(rest.join("/"));
-  else if (route === "forum") renderForum();
-  else if (route === "board") renderBoard(rest.join("/"));
-  else if (route === "thread") renderThread(rest[0], rest.slice(1).join("/"));
-  else if (route === "forum-help") renderForumHelp();
-  else renderNotFound();
-  window.scrollTo(0, 0);
-  app.focus();
-}
-
-window.addEventListener("hashchange", router);
-window.addEventListener("DOMContentLoaded", router);
+function renderNotFound(){app.innerHTML=`<div class="empty"><h2>您访问的页面不存在</h2><p><a href="#home">返回星海资讯网首页</a></p></div>`;}
+function router(){const hash=decodeURIComponent(location.hash.replace(/^#/,""))||"home";const [route,...rest]=hash.split("/");if(route==="home")renderHome();else if(route==="article")renderArticle(rest.join("/"));else if(route==="list")renderList(rest.join("/")||"all");else if(route==="search")renderSearch(rest.join("/"));else if(route==="forum")renderForum();else if(route==="thread")renderThread(rest.join("/"));else renderNotFound();window.scrollTo(0,0);app.focus();}
+window.addEventListener("hashchange",router);window.addEventListener("DOMContentLoaded",router);
