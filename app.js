@@ -64,6 +64,127 @@ const ARTICLES = [
   }
 ];
 
+
+const FORUM_BOARDS = [
+  {
+    "id": "local-talk",
+    "name": "地方生活",
+    "description": "本地见闻、交通出行与生活话题",
+    "moderator": "待定",
+    "threads": []
+  },
+  {
+    "id": "railway-talk",
+    "name": "铁路纵横",
+    "description": "铁路建设、列车出行与沿线消息",
+    "moderator": "待定",
+    "threads": []
+  },
+  {
+    "id": "free-talk",
+    "name": "灌水乐园",
+    "description": "网友交流与站务讨论",
+    "moderator": "待定",
+    "threads": []
+  }
+];
+
+function boardLink(board) {
+  return `<a href="#board/${encodeURIComponent(board.id)}">${escapeHtml(board.name)}</a>`;
+}
+
+function renderForum() {
+  const totalThreads = FORUM_BOARDS.reduce((sum, board) => sum + board.threads.length, 0);
+  app.innerHTML = `
+    <div class="forum-topbar">
+      <div><b>星海社区</b>　欢迎访问本站论坛</div>
+      <div><a href="#home">返回新闻首页</a> | <a href="#forum-help">论坛帮助</a></div>
+    </div>
+    <div class="forum-breadcrumb">星海资讯网论坛首页</div>
+    <table class="forum-table" cellspacing="0" cellpadding="0">
+      <thead>
+        <tr><th class="forum-icon-col">状态</th><th>版块</th><th class="forum-num-col">主题</th><th class="forum-num-col">帖数</th><th class="forum-last-col">最后发表</th></tr>
+      </thead>
+      <tbody>
+        ${FORUM_BOARDS.map(board => `
+          <tr>
+            <td class="forum-icon">◎</td>
+            <td class="forum-board-cell">
+              <h3>${boardLink(board)}</h3>
+              <p>${escapeHtml(board.description)}</p>
+              <small>版主：${escapeHtml(board.moderator)}</small>
+            </td>
+            <td class="forum-center">${board.threads.length}</td>
+            <td class="forum-center">${board.threads.reduce((sum, thread) => sum + (thread.replies || []).length + 1, 0)}</td>
+            <td class="forum-last">暂无主题</td>
+          </tr>`).join("")}
+      </tbody>
+    </table>
+    <div class="forum-stats">论坛共有 <b>${FORUM_BOARDS.length}</b> 个版块，<b>${totalThreads}</b> 个主题。论坛正文等待创作者补充。</div>
+    <section class="forum-notice">
+      <h3>论坛公告</h3>
+      <p>论坛功能框架已经启用。当前版本没有添加任何虚构帖子或回复，以免改动创作者的剧情内容。</p>
+      <p>后续提供帖子标题、用户名、时间、正文和回复后，可直接加入相应版块。</p>
+    </section>`;
+}
+
+function renderBoard(id) {
+  const board = FORUM_BOARDS.find(item => item.id === id);
+  if (!board) return renderNotFound();
+  app.innerHTML = `
+    <div class="forum-topbar"><div><b>星海社区</b>　${escapeHtml(board.name)}</div><div><a href="#forum">论坛首页</a> | <a href="#home">新闻首页</a></div></div>
+    <div class="forum-breadcrumb"><a href="#forum">星海社区</a> &gt; ${escapeHtml(board.name)}</div>
+    <div class="forum-board-head">
+      <h2>${escapeHtml(board.name)}</h2>
+      <p>${escapeHtml(board.description)}</p>
+    </div>
+    <table class="thread-table" cellspacing="0" cellpadding="0">
+      <thead><tr><th>主题</th><th class="thread-author-col">作者</th><th class="thread-num-col">回复/查看</th><th class="thread-last-col">最后发表</th></tr></thead>
+      <tbody>
+        ${board.threads.length ? board.threads.map(thread => `
+          <tr>
+            <td><a href="#thread/${encodeURIComponent(board.id)}/${encodeURIComponent(thread.id)}">${escapeHtml(thread.title)}</a></td>
+            <td class="forum-center">${escapeHtml(thread.author)}</td>
+            <td class="forum-center">${thread.replies.length}/${thread.views || 0}</td>
+            <td>${escapeHtml(thread.date)}</td>
+          </tr>`).join("") : `<tr><td colspan="4" class="forum-empty">本版暂无主题。请在提供论坛正文后再添加内容。</td></tr>`}
+      </tbody>
+    </table>
+    <div class="forum-disabled-form">
+      <b>发表新主题</b><br>
+      当前为剧情展示用离线论坛，发帖功能未开放。
+    </div>`;
+}
+
+function renderThread(boardId, threadId) {
+  const board = FORUM_BOARDS.find(item => item.id === boardId);
+  const thread = board && board.threads.find(item => item.id === threadId);
+  if (!board || !thread) return renderNotFound();
+  const posts = [{author:thread.author, date:thread.date, body:thread.body}, ...thread.replies];
+  app.innerHTML = `
+    <div class="forum-topbar"><div><b>星海社区</b></div><div><a href="#forum">论坛首页</a> | <a href="#board/${encodeURIComponent(board.id)}">返回版块</a></div></div>
+    <div class="forum-breadcrumb"><a href="#forum">星海社区</a> &gt; <a href="#board/${encodeURIComponent(board.id)}">${escapeHtml(board.name)}</a> &gt; ${escapeHtml(thread.title)}</div>
+    <div class="thread-title"><b>${escapeHtml(thread.title)}</b></div>
+    ${posts.map((post, index) => `
+      <article class="forum-post">
+        <aside class="forum-user"><b>${escapeHtml(post.author)}</b><br><span>注册用户</span><br><small>${index === 0 ? '楼主' : `第${index + 1}楼`}</small></aside>
+        <div class="forum-post-main">
+          <div class="forum-post-meta">发表于：${escapeHtml(post.date)} <span>${index === 0 ? '只看楼主' : ''}</span></div>
+          <div class="forum-post-body">${escapeHtml(post.body).replace(/\n/g, '<br>')}</div>
+        </div>
+      </article>`).join("")}`;
+}
+
+function renderForumHelp() {
+  app.innerHTML = `
+    <div class="forum-breadcrumb"><a href="#forum">星海社区</a> &gt; 论坛帮助</div>
+    <section class="article"><h1>论坛内容录入说明</h1>
+      <p>论坛页面已经建立，但尚未加入故事帖子。</p>
+      <p>每个帖子可包含：版块、标题、作者、日期、正文、浏览数，以及任意数量的回复。</p>
+      <p>提供这些文字后，可在不改写内容的情况下加入论坛。</p>
+    </section>`;
+}
+
 const app = document.getElementById("app");
 
 function escapeHtml(value) {
@@ -136,7 +257,7 @@ function renderHome() {
         </section>
         <div class="notice">
           <b>网站公告</b><br>
-          本站为离线剧情网页工程，所有新闻正文均来自创作者提供的资料。论坛、博客与图片频道将在后续版本中开放。
+          本站为离线剧情网页工程，所有新闻正文均来自创作者提供的资料。论坛频道现已开放；帖子正文等待创作者提供。博客与图片频道将在后续版本中开放。
         </div>
       </aside>
     </div>`;
@@ -247,6 +368,10 @@ function router() {
   else if (route === "article") renderArticle(rest.join("/"));
   else if (route === "list") renderList(rest.join("/") || "all");
   else if (route === "search") renderSearch(rest.join("/"));
+  else if (route === "forum") renderForum();
+  else if (route === "board") renderBoard(rest.join("/"));
+  else if (route === "thread") renderThread(rest[0], rest.slice(1).join("/"));
+  else if (route === "forum-help") renderForumHelp();
   else renderNotFound();
   window.scrollTo(0, 0);
   app.focus();
